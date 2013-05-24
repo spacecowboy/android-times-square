@@ -13,7 +13,7 @@
       android:layout_marginTop="@dimen/calendar_month_topmargin"
       android:layout_marginBottom="@dimen/calendar_month_title_bottommargin"
       android:gravity="center_horizontal"
-      style="@style/CalendarTitle"
+      style="?CalendarTitle"
       />
   <com.squareup.timessquare.CalendarGridView
       android:id="@+id/calendar_grid"
@@ -28,37 +28,37 @@
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          style="@style/CalendarCell.DayHeader"
+          style="?CalendarCell.DayHeader"
           />
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          style="@style/CalendarCell.DayHeader"
+          style="?CalendarCell.DayHeader"
           />
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          style="@style/CalendarCell.DayHeader"
+          style="?CalendarCell.DayHeader"
           />
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          style="@style/CalendarCell.DayHeader"
+          style="?CalendarCell.DayHeader"
           />
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          style="@style/CalendarCell.DayHeader"
+          style="?CalendarCell.DayHeader"
           />
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          style="@style/CalendarCell.DayHeader"
+          style="?CalendarCell.DayHeader"
           />
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          style="@style/CalendarCell.DayHeader"
+          style="?CalendarCell.DayHeader"
           />
     </com.squareup.timessquare.CalendarRowView>
     <include layout="@layout/week"/>

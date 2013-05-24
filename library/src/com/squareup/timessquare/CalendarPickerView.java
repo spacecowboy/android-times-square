@@ -2,6 +2,7 @@
 package com.squareup.timessquare;
 
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -86,9 +87,19 @@ public class CalendarPickerView extends ListView {
     adapter = new MonthAdapter();
     setDivider(null);
     setDividerHeight(0);
-    final int bg = getResources().getColor(R.color.calendar_bg);
-    setBackgroundColor(bg);
-    setCacheColorHint(bg);
+//    final int bg = getResources().getColor(R.color.calendar_bg);
+//    setBackgroundColor(bg);
+//    setCacheColorHint(bg);
+    
+//  // TODO
+//  final int bgColor = attrs.getAttributeResourceValue("http://schemas.android.com/apk/res/android", 
+//  		"background", R.color.calendar_bg);
+//  
+//  final int bg = getResources().getColor(bgColor);
+//  // TODO
+//
+//  setBackgroundColor(bg);
+//  setCacheColorHint(bg);
     locale = Locale.getDefault();
     today = Calendar.getInstance(locale);
     minCal = Calendar.getInstance(locale);

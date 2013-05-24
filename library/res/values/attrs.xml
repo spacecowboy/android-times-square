@@ -9,4 +9,8 @@
     <attr name="state_range_last" format="boolean" />
     <attr name="state_highlighted" format="boolean" />
   </declare-styleable>
+  
+  <attr name="CalendarTitle" format="reference" />
+  <attr name="CalendarCell.DayHeader" format="reference" />
+  <attr name="CalendarCell.CalendarDate" format="reference" />
 </resources>
